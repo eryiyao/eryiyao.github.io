@@ -13,7 +13,7 @@
   
   <title>
     
-      过度依赖AI生成 
+      archive_a: 2025/3 
       
       
       |
@@ -101,109 +101,48 @@
 
 
       <div class="flex-container">
-        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
-<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
 
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
 
-  <!-- LaTex Display -->
-
-  
-    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
-  
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
-    }
-  </script>
-
-
-
-
-
-  <!-- clipboard -->
-
-  
-    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
-  
-  
-<script src="/js/codeCopy.js"></script>
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
-  <div class="container post-details" id="post-details">
-    <div class="post-content">
-      <div class="post-title">过度依赖AI生成</div>
-      <div class="post-attach">
-        <span class="post-pubtime">
-          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-          2025-03-07 15:21:22
-        </span>
-        
-      </div>
-      <div class="markdown-body">
-        <blockquote>
-<p>近期看到朋友分享一个电子商务公司培训员工使用AI，从图片上看，在教DeepSeek和可灵等应用。</p>
-</blockquote>
-<p>从老板或公司的角度来看，培训这些技能实际上是一种“降本增效”的好手段。但对于员工，尤其是初入职场的员工来说，必须要警惕过度依赖这些工具。如今，这些工具的热度很高，即使企业不培训，很多人也会用，特别是这些本身是面向C端的应用。但如果在职场中过度依赖这些工具，很容易被企业绑定，限制自身的发展。</p>
-<p>未来如果想创业，真正的核心竞争力可能不再是这些工具本身。AI是一种普惠技术，接入门槛低，就像互联网，人人都可以使用。真正的核心可能是独立思考能力，以及对细节的感受体验。如果过度依赖AI，这些能力可能会逐渐被削弱。</p>
-<p>以写作为例，适当使用AI进行辅助思考是有益的，但如果长期依赖AI生成内容，原创思考、信息整理、推理分析等能力都会逐渐退化，进而影响职场竞争力。</p>
-<p>批量生成图片也是如此。过度使用AI生成图片，可能会削弱对版面布局、光影变化、字体（字形、字号、字重等）、颜色搭配（色相、饱和度、明度、色调、对比度等）的敏感度。而这些能力，并不是单靠多看就能提升的，而是需要在多看的基础上，亲自操作，才能真正入真正体会和掌握。</p>
-<p>归根结底AI就像一把菜刀吧，技术本身无好坏之分。关键在于如何使用。对于初级员工来说，要保持对工具的警觉与思考。当然，如果只满足于初级岗位，依赖工具或许问题不大。😅</p>
-
-      </div>
-      
-        <div class="prev-or-next">
-          <div class="post-foot-next">
-            
-              <a href="/2024/12/14/hello-world/" target="_self">
-                <i class="iconfont icon-chevronleft"></i>
-                <span>Prev</span>
-              </a>
-            
-          </div>
-          <div class="post-attach">
-            <span class="post-pubtime">
-              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-              2025-03-07 15:21:22
-            </span>
-            
-          </div>
-          <div class="post-foot-prev">
-            
-          </div>
+<div class="container archives">
+  <div class="post-list">
+    
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2025</span>
+          </h2>
         </div>
       
-    </div>
+      <div class="post-item" title="过度依赖AI生成">
+        <div class="time-m-d">03-07</div>
+        <div class="title">
+          <a href="/2025/03/07/over-reliance-on-ai-generation/">
+            <span>过度依赖AI生成</span>
+          </a>
+        </div>
+      </div>
     
-
-    
-      <div class="comments-container">
-        
-
-
-
-
-
-
-
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2024</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="Hello World">
+        <div class="time-m-d">12-14</div>
+        <div class="title">
+          <a href="/2024/12/14/hello-world/">
+            <span>Hello World</span>
+          </a>
+        </div>
       </div>
     
   </div>
-
+</div>
 
         
 <div class="footer">
@@ -468,24 +407,6 @@
 
 
         
-  
-    <div class="share-icon tools-bar-item">
-      <a href="javascript: void(0)" id="share-icon">
-        <i class="iconfont iconshare"></i>
-      </a>
-      <div class="share-content hidden">
-        
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E8%BF%87%E5%BA%A6%E4%BE%9D%E8%B5%96AI%E7%94%9F%E6%88%90 + '&url=' + https%3A%2F%2Feryiyao.github.io%2F2024%2F12%2F16%2Fover-reliance-on-ai-generation%2F + '" target="_blank" title="Twitter">
-            <i class="iconfont icon-twitter"></i>
-          </a>
-        
-        
-          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://eryiyao.github.io/2024/12/16/over-reliance-on-ai-generation/" target="_blank" title="Facebook">
-            <i class="iconfont icon-facebooksquare"></i>
-          </a>
-        
-      </div>
-    </div>
   
   
 <script src="/js/shares.js"></script>
